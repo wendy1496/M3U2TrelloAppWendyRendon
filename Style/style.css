@@ -12,7 +12,18 @@
 	height: 500px;
 	margin: 0px auto;
 	padding: 20px;
-	background: #fff;
+	background: rgb(244, 244, 244);
+	overflow: auto;
+	font-family: 'Open Sans';
+	border-radius: 4px;
+}
+
+.contenedor1 {
+	width: 300px;
+	height: auto;
+	margin: 5px auto;
+	padding: 20px;
+	background: rgb(255, 255, 255);
 	overflow: auto;
 	font-family: 'Open Sans';
 	border-radius: 4px;
@@ -22,7 +33,7 @@
 	width: 350px;
 	height: 50px;
 	margin: 10px auto;
-	background: #fff;
+	background: rgb(244, 244, 244);
 	overflow: auto;
 	font-family: 'Open Sans';
 	border-radius: 4px;
