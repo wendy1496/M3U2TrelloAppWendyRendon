@@ -8,13 +8,12 @@ form.addEventListener('submit', (ev) => {
   
   // Recopilamos la información a enviar a la API
   const data = {
-    title: formData.titleTask.value,
-    person: formData.responsibleTask.value,
-    details: formData.detailsTask.value,
-    // deadline: formData.deadLineTask.value,
-    deadline: Number(moment().add(formData.deadLineTask.value, 'days').format('X')),
-    created: Number(moment().format("X")),
-    state: 'to-do'
+    titulo: formData.titulo.value,
+    responsable: formData.responsable.value,
+    descripcion: formData.descripcion.value,
+    estado: 'to-do',
+    fecha: formData.fecha.value,
+    created: Date.now()
   };
   // Hacemos una petición POST para enviar la información a la API y le pasamos el arreglo data con la información nueva
   axios.post(`${API_URL}/tasks`, data)

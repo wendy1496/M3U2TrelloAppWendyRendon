@@ -6,8 +6,8 @@
         "responsable": "Wendy Rendón",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "estado": "done",
-        "fecha": 1290410940,
-        "created": 1615352159
+        "fecha": "12/08/2022",
+        "created": "30/10/2022"
       },
       {
         "id": 2,
@@ -15,8 +15,8 @@
         "responsable": "Carla Pérez",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "estado": "to-do",
-        "fecha": 1615524959,
-        "created": 1615352159
+        "fecha": "30/10/2022",
+        "created":"30/10/2022"
       }
     ]
   }
