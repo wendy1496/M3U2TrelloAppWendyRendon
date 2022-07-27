@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
         
-        h1, h2, h5{
+        h1, h2, h4, h5{
             font-family: 'Amaranth', sans-serif;
         }
 
@@ -12,7 +12,7 @@
 	height: 500px;
 	margin: 0px auto;
 	padding: 20px;
-	background: rgb(244, 244, 244);
+	background: rgb(240, 240, 240);
 	overflow: auto;
 	font-family: 'Open Sans';
 	border-radius: 4px;
@@ -23,7 +23,7 @@
 	height: auto;
 	margin: 5px auto;
 	padding: 20px;
-	background: rgb(255, 255, 255);
+	background: rgb(194, 206, 116);
 	overflow: auto;
 	font-family: 'Open Sans';
 	border-radius: 4px;
