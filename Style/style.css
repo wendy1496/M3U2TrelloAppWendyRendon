@@ -12,7 +12,7 @@
 	height: 500px;
 	margin: 0px auto;
 	padding: 20px;
-	background: rgb(240, 240, 240);
+	background: rgb(241, 241, 241);
 	overflow: auto;
 	font-family: 'Open Sans';
 	border-radius: 4px;
@@ -23,10 +23,11 @@
 	height: auto;
 	margin: 5px auto;
 	padding: 20px;
-	background: rgb(194, 206, 116);
+	background: rgb(255, 255, 255);
 	overflow: auto;
 	font-family: 'Open Sans';
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 .boton {
