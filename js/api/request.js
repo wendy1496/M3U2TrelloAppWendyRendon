@@ -25,6 +25,9 @@ const createTask = (task) => {
   let taskDate = document.createElement("p");
   taskDate.innerHTML = `<h5>Plazo:</h5> ${task.fecha}`;
 
+  let taskCreate = document.createElement("p");
+  taskCreate.innerHTML = `<h5 hidden>Creación:</h5><p hidden> ${task.created}</p>`;
+
   newTask.appendChild(taskTitulo);
   newTask.appendChild(taskResponsable);
   newTask.appendChild(taskDetails);
