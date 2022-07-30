@@ -12,6 +12,7 @@ const showAllTasks = (data) => {
 const createTask = (task) => {
   let newTask = document.createElement("article");
   newTask.classList.add("contenedor1");
+  newTask.setAttribute("id", "contenedor1");
 
   let taskTitulo = document.createElement("h4");
   taskTitulo.innerText = task.titulo;
@@ -26,11 +27,14 @@ const createTask = (task) => {
   taskDate.innerHTML = `<h5>Plazo:</h5> ${task.fecha}`;
 
   let taskCreate = document.createElement("p");
-  taskCreate.innerHTML = `<h5 hidden>Creación:</h5><p hidden> ${task.created}</p>`;
+  taskCreate.innerHTML = `<h5>Creación:</h5><p> ${task.created}</p>`;
 
-  let btn = document.createElement("button");
-  btn.classList.add("btn btn-danger");
-  btn.innerHTML = `<i class="fas fa-trash"></i>`;
+  let btn = document.createElement("div");
+  btn.classList.add("row");
+  btn.classList.add("text-center");
+  btn.innerHTML = `<div class="col-12">
+  <button class="btn btn-secondary" id="btnEliminar"><i class="fas fa-trash"></i></button>
+  </div> `;
 
   newTask.appendChild(taskTitulo);
   newTask.appendChild(taskResponsable);
