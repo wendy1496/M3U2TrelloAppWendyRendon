@@ -28,11 +28,16 @@ const createTask = (task) => {
   let taskCreate = document.createElement("p");
   taskCreate.innerHTML = `<h5 hidden>Creación:</h5><p hidden> ${task.created}</p>`;
 
+  let btn = document.createElement("button");
+  btn.classList.add("btn btn-danger");
+  btn.innerHTML = `<i class="fas fa-trash"></i>`;
+
   newTask.appendChild(taskTitulo);
   newTask.appendChild(taskResponsable);
   newTask.appendChild(taskDetails);
   newTask.appendChild(taskDate);
   newTask.appendChild(taskCreate);
+  newTask.appendChild(btn);
 
   let columnToDo = document.querySelector("#todoTasks");
   let columnDoing = document.querySelector("#doingTasks");
